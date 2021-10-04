@@ -5,7 +5,7 @@ let time = 0;
 let score = 0;
 const timeEl = document.querySelector('#time')
 const board = document.querySelector('#board')
-const colors = ['red', 'black', 'green', 'yellow', 'white', 'violet']
+const colors = ['red', 'black', 'pink', 'yellow', 'Рurple', 'violet']
 
 startBtn.addEventListener('click', (event) => {
     event.preventDefault()
